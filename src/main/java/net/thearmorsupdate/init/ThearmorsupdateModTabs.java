@@ -8,12 +8,17 @@ import net.thearmorsupdate.ThearmorsupdateMod;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ThearmorsupdateModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ThearmorsupdateMod.MODID);
 	public static final RegistryObject<CreativeModeTab> ARMOR_UPDATE = REGISTRY.register("armor_update",
@@ -24,5 +29,18 @@ public class ThearmorsupdateModTabs {
 				tabData.accept(ThearmorsupdateModItems.RUBY_LEGGINGS.get());
 				tabData.accept(ThearmorsupdateModItems.RUBY_BOOTS.get());
 				tabData.accept(ThearmorsupdateModItems.RUBY_ITEM.get());
+				tabData.accept(ThearmorsupdateModItems.URANIUM.get());
+				tabData.accept(ThearmorsupdateModBlocks.URANIUM_ORE.get().asItem());
 			}).withSearchBar().build());
+
+	@SubscribeEvent
+	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+
+		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(ThearmorsupdateModItems.URANIUM_ARMOR_HELMET.get());
+			tabData.accept(ThearmorsupdateModItems.URANIUM_ARMOR_CHESTPLATE.get());
+			tabData.accept(ThearmorsupdateModItems.URANIUM_ARMOR_LEGGINGS.get());
+			tabData.accept(ThearmorsupdateModItems.URANIUM_ARMOR_BOOTS.get());
+		}
+	}
 }

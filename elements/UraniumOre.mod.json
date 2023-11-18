@@ -2,12 +2,12 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "rubyore",
-    "textureTop": "rubyore",
-    "textureLeft": "rubyore",
-    "textureFront": "rubyore",
-    "textureRight": "rubyore",
-    "textureBack": "rubyore",
+    "texture": "uraniumore",
+    "textureTop": "uraniumore",
+    "textureLeft": "uraniumore",
+    "textureFront": "uraniumore",
+    "textureRight": "uraniumore",
+    "textureBack": "uraniumore",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,9 +33,9 @@
         "subtract": false
       }
     ],
-    "name": "Ruby Ore",
+    "name": "Uranium Ore",
     "specialInfo": [],
-    "hardness": 4.2,
+    "hardness": 6.45,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -44,7 +44,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:RubyItem"
+      "value": "CUSTOM:Uranium"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

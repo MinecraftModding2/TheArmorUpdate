@@ -4,6 +4,7 @@
  */
 package net.thearmorsupdate.init;
 
+import net.thearmorsupdate.block.UraniumOreBlock;
 import net.thearmorsupdate.block.RubyOreBlock;
 import net.thearmorsupdate.ThearmorsupdateMod;
 
@@ -16,4 +17,5 @@ import net.minecraft.world.level.block.Block;
 public class ThearmorsupdateModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, ThearmorsupdateMod.MODID);
 	public static final RegistryObject<Block> RUBY_ORE = REGISTRY.register("ruby_ore", () -> new RubyOreBlock());
+	public static final RegistryObject<Block> URANIUM_ORE = REGISTRY.register("uranium_ore", () -> new UraniumOreBlock());
 }

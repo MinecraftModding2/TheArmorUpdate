@@ -18,9 +18,9 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-public class RubyOreBlock extends Block {
-	public RubyOreBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(4.2f, 10f).requiresCorrectToolForDrops());
+public class UraniumOreBlock extends Block {
+	public UraniumOreBlock() {
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(6.45f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override
@@ -40,6 +40,6 @@ public class RubyOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(ThearmorsupdateModItems.RUBY_ITEM.get()));
+		return Collections.singletonList(new ItemStack(ThearmorsupdateModItems.URANIUM.get()));
 	}
 }

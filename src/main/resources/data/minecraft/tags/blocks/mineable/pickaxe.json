@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "thearmorsupdate:ruby_ore"
+    "thearmorsupdate:ruby_ore",
+    "thearmorsupdate:uranium_ore"
   ]
 }

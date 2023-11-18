@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "thearmorsupdate:block/uraniumore",
+    "up": "thearmorsupdate:block/uraniumore",
+    "north": "thearmorsupdate:block/uraniumore",
+    "east": "thearmorsupdate:block/uraniumore",
+    "south": "thearmorsupdate:block/uraniumore",
+    "west": "thearmorsupdate:block/uraniumore",
+    "particle": "thearmorsupdate:block/uraniumore"
+  },
+  "render_type": "solid"
+}

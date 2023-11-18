@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "thearmorsupdate:ruby_item"
+    },
+    "title": {
+      "translate": "advancements.cover_me_in_rubys.title"
+    },
+    "description": {
+      "translate": "advancements.cover_me_in_rubys.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cover_me_in_rubys": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

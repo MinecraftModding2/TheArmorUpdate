@@ -1,10 +1,18 @@
 {
+  "item.thearmorsupdate.uranium_armor_leggings": "Uranium Leggings",
+  "block.thearmorsupdate.uranium_ore": "Uranium Ore",
+  "advancements.cover_me_in_rubys.descr": "Wear a ruby helmet.",
+  "item.thearmorsupdate.ruby_chestplate": "Ruby Chestplate",
+  "item.thearmorsupdate.uranium": "Uranium",
+  "item.thearmorsupdate.ruby_leggings": "Ruby Leggings",
   "block.thearmorsupdate.ruby_ore": "Ruby Ore",
+  "item.thearmorsupdate.uranium_armor_helmet": "Uranium Helmet",
   "item.thearmorsupdate.ruby_boots": "Ruby Boots",
+  "item.thearmorsupdate.uranium_armor_chestplate": "Uranium Chestplate",
   "item.thearmorsupdate.ruby_helmet": "Ruby Helmet",
   "item.thearmorsupdate.ruby_item": "Ruby",
-  "item.thearmorsupdate.ruby_chestplate": "Ruby Chestplate",
-  "item.thearmorsupdate.ruby_leggings": "Ruby Leggings",
+  "advancements.cover_me_in_rubys.title": "Cover Me In Rubys",
+  "item.thearmorsupdate.uranium_armor_boots": "Uranium Boots",
   "item_group.thearmorsupdate.armor_update": "The Armor Update",
   "item.thearmorsupdate.non_obtain_armor_upd_logo": "Non Obtain Armor UPD Logo"
 }

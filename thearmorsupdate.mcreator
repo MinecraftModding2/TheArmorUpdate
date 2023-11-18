@@ -127,18 +127,109 @@
           "src/main/resources/data/thearmorsupdate/recipes/ruby_boots.json"
         ]
       }
+    },
+    {
+      "name": "CoverMeInRubys",
+      "type": "achievement",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cover_me_in_rubys",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thearmorsupdate/advancements/cover_me_in_rubys.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyHelmetWorn",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_helmet_worn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/thearmorsupdate/procedures/RubyHelmetWornProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Uranium",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/thearmorsupdate/item/UraniumItem.java",
+          "src/main/resources/assets/thearmorsupdate/models/item/uranium.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thearmorsupdate/forge/biome_modifier/uranium_ore_biome_modifier.json",
+          "src/main/resources/assets/thearmorsupdate/models/block/uranium_ore.json",
+          "src/main/java/net/thearmorsupdate/block/UraniumOreBlock.java",
+          "src/main/resources/assets/thearmorsupdate/blockstates/uranium_ore.json",
+          "src/main/java/net/thearmorsupdate/world/features/ores/UraniumOreFeature.java",
+          "src/main/resources/data/thearmorsupdate/worldgen/configured_feature/uranium_ore.json",
+          "src/main/resources/data/thearmorsupdate/worldgen/placed_feature/uranium_ore.json",
+          "src/main/resources/assets/thearmorsupdate/models/item/uranium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumArmor",
+      "type": "armor",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thearmorsupdate/models/item/uranium_armor_boots.json",
+          "src/main/resources/assets/thearmorsupdate/models/item/uranium_armor_chestplate.json",
+          "src/main/resources/assets/thearmorsupdate/models/item/uranium_armor_leggings.json",
+          "src/main/resources/assets/thearmorsupdate/models/item/uranium_armor_helmet.json",
+          "src/main/java/net/thearmorsupdate/item/UraniumArmorItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.thearmorsupdate.uranium_armor_leggings": "Uranium Leggings",
+      "block.thearmorsupdate.uranium_ore": "Uranium Ore",
+      "advancements.cover_me_in_rubys.descr": "Wear a ruby helmet.",
+      "item.thearmorsupdate.ruby_chestplate": "Ruby Chestplate",
+      "item.thearmorsupdate.uranium": "Uranium",
+      "item.thearmorsupdate.ruby_leggings": "Ruby Leggings",
       "block.thearmorsupdate.ruby_ore": "Ruby Ore",
+      "item.thearmorsupdate.uranium_armor_helmet": "Uranium Helmet",
       "item.thearmorsupdate.ruby_boots": "Ruby Boots",
+      "item.thearmorsupdate.uranium_armor_chestplate": "Uranium Chestplate",
       "item.thearmorsupdate.ruby_helmet": "Ruby Helmet",
       "item.thearmorsupdate.ruby_item": "Ruby",
-      "item.thearmorsupdate.ruby_chestplate": "Ruby Chestplate",
-      "item.thearmorsupdate.ruby_leggings": "Ruby Leggings",
+      "advancements.cover_me_in_rubys.title": "Cover Me In Rubys",
+      "item.thearmorsupdate.uranium_armor_boots": "Uranium Boots",
       "item_group.thearmorsupdate.armor_update": "The Armor Update",
       "item.thearmorsupdate.non_obtain_armor_upd_logo": "Non Obtain Armor UPD Logo"
     }

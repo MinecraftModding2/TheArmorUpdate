@@ -3,24 +3,21 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "rubyhelmet",
+    "textureHelmet": "uraniumhelmet",
     "enableBody": true,
-    "textureBody": "rubychest",
+    "textureBody": "uraniumchestplate",
     "enableLeggings": true,
-    "textureLeggings": "rubylegs",
+    "textureLeggings": "uraniumleggings",
     "enableBoots": true,
-    "textureBoots": "rubyboots",
-    "onHelmetTick": {
-      "name": "RubyHelmetWorn"
-    },
+    "textureBoots": "uraniumboots",
     "creativeTab": {
-      "value": "CUSTOM:ArmorUpdate"
+      "value": "COMBAT"
     },
-    "armorTextureFile": "ruby",
-    "helmetName": "Ruby Helmet",
-    "bodyName": "Ruby Chestplate",
-    "leggingsName": "Ruby Leggings",
-    "bootsName": "Ruby Boots",
+    "armorTextureFile": "uraniumarmor",
+    "helmetName": "Uranium Helmet",
+    "bodyName": "Uranium Chestplate",
+    "leggingsName": "Uranium Leggings",
+    "bootsName": "Uranium Boots",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],
@@ -54,15 +51,15 @@
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
     "maxDamage": 25,
-    "damageValueHelmet": 2,
-    "damageValueBody": 6,
-    "damageValueLeggings": 5,
-    "damageValueBoots": 2,
+    "damageValueHelmet": 4,
+    "damageValueBody": 7,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
     "enchantability": 9,
-    "toughness": 2.1,
-    "knockbackResistance": 0.2,
+    "toughness": 3.8000000000000003,
+    "knockbackResistance": 0.1,
     "equipSound": {
-      "value": "item.armor.equip_diamond"
+      "value": ""
     },
     "repairItems": []
   }
