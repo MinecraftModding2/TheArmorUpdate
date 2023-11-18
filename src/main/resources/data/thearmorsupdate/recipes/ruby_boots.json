@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "thearmorsupdate:ruby_item"
+    },
+    "2": {
+      "item": "thearmorsupdate:ruby_item"
+    },
+    "3": {
+      "item": "thearmorsupdate:ruby_item"
+    },
+    "5": {
+      "item": "thearmorsupdate:ruby_item"
+    }
+  },
+  "result": {
+    "item": "thearmorsupdate:ruby_boots",
+    "count": 1
+  }
+}

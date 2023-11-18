@@ -75,6 +75,58 @@
           "src/main/resources/assets/thearmorsupdate/models/item/ruby_item.json"
         ]
       }
+    },
+    {
+      "name": "RubyHelmet",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thearmorsupdate/recipes/ruby_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyChestplate",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thearmorsupdate/recipes/ruby_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyLeggings",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thearmorsupdate/recipes/ruby_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyBoots",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thearmorsupdate/recipes/ruby_boots.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -84,7 +136,7 @@
       "block.thearmorsupdate.ruby_ore": "Ruby Ore",
       "item.thearmorsupdate.ruby_boots": "Ruby Boots",
       "item.thearmorsupdate.ruby_helmet": "Ruby Helmet",
-      "item.thearmorsupdate.ruby_item": "Ruby Item",
+      "item.thearmorsupdate.ruby_item": "Ruby",
       "item.thearmorsupdate.ruby_chestplate": "Ruby Chestplate",
       "item.thearmorsupdate.ruby_leggings": "Ruby Leggings",
       "item_group.thearmorsupdate.armor_update": "The Armor Update",
@@ -93,7 +145,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Ruby",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "thearmorsupdate",

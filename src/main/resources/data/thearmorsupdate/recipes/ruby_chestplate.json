@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "thearmorsupdate:ruby_item"
+    },
+    "2": {
+      "item": "thearmorsupdate:ruby_item"
+    },
+    "3": {
+      "item": "thearmorsupdate:ruby_item"
+    },
+    "4": {
+      "item": "thearmorsupdate:ruby_item"
+    },
+    "5": {
+      "item": "thearmorsupdate:ruby_item"
+    },
+    "6": {
+      "item": "thearmorsupdate:ruby_item"
+    },
+    "7": {
+      "item": "thearmorsupdate:ruby_item"
+    },
+    "8": {
+      "item": "thearmorsupdate:ruby_item"
+    }
+  },
+  "result": {
+    "item": "thearmorsupdate:ruby_chestplate",
+    "count": 1
+  }
+}
