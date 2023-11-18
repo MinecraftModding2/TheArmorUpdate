@@ -1,0 +1,116 @@
+{
+  "mod_elements": [
+    {
+      "name": "ArmorUpdate",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor_update",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "NonObtainArmorUPDLogo",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "non_obtain_armor_upd_logo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thearmorsupdate/models/item/non_obtain_armor_upd_logo.json",
+          "src/main/java/net/thearmorsupdate/item/NonObtainArmorUPDLogoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thearmorsupdate/blockstates/ruby_ore.json",
+          "src/main/java/net/thearmorsupdate/world/features/ores/RubyOreFeature.java",
+          "src/main/resources/data/thearmorsupdate/forge/biome_modifier/ruby_ore_biome_modifier.json",
+          "src/main/resources/data/thearmorsupdate/worldgen/placed_feature/ruby_ore.json",
+          "src/main/resources/assets/thearmorsupdate/models/item/ruby_ore.json",
+          "src/main/resources/data/thearmorsupdate/worldgen/configured_feature/ruby_ore.json",
+          "src/main/java/net/thearmorsupdate/block/RubyOreBlock.java",
+          "src/main/resources/assets/thearmorsupdate/models/block/ruby_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Ruby",
+      "type": "armor",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby",
+      "metadata": {
+        "files": [
+          "src/main/java/net/thearmorsupdate/item/RubyItem.java",
+          "src/main/resources/assets/thearmorsupdate/models/item/ruby_leggings.json",
+          "src/main/resources/assets/thearmorsupdate/models/item/ruby_helmet.json",
+          "src/main/resources/assets/thearmorsupdate/models/item/ruby_boots.json",
+          "src/main/resources/assets/thearmorsupdate/models/item/ruby_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyItem",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/thearmorsupdate/item/RubyItemItem.java",
+          "src/main/resources/assets/thearmorsupdate/models/item/ruby_item.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.thearmorsupdate.ruby_ore": "Ruby Ore",
+      "item.thearmorsupdate.ruby_boots": "Ruby Boots",
+      "item.thearmorsupdate.ruby_helmet": "Ruby Helmet",
+      "item.thearmorsupdate.ruby_item": "Ruby Item",
+      "item.thearmorsupdate.ruby_chestplate": "Ruby Chestplate",
+      "item.thearmorsupdate.ruby_leggings": "Ruby Leggings",
+      "item_group.thearmorsupdate.armor_update": "The Armor Update",
+      "item.thearmorsupdate.non_obtain_armor_upd_logo": "Non Obtain Armor UPD Logo"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "thearmorsupdate",
+    "modName": "TheArmorsUpdate",
+    "version": "1.0.0",
+    "author": "Taco, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.thearmorsupdate",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

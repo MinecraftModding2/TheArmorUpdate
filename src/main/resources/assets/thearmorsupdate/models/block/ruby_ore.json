@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "thearmorsupdate:block/rubyore",
+    "up": "thearmorsupdate:block/rubyore",
+    "north": "thearmorsupdate:block/rubyore",
+    "east": "thearmorsupdate:block/rubyore",
+    "south": "thearmorsupdate:block/rubyore",
+    "west": "thearmorsupdate:block/rubyore",
+    "particle": "thearmorsupdate:block/rubyore"
+  },
+  "render_type": "solid"
+}
