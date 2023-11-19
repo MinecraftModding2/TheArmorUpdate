@@ -31,16 +31,18 @@ public class ThearmorsupdateModTabs {
 				tabData.accept(ThearmorsupdateModItems.RUBY_ITEM.get());
 				tabData.accept(ThearmorsupdateModItems.URANIUM.get());
 				tabData.accept(ThearmorsupdateModBlocks.URANIUM_ORE.get().asItem());
+				tabData.accept(ThearmorsupdateModItems.URANIUM_1ARMOR_HELMET.get());
+				tabData.accept(ThearmorsupdateModItems.URANIUM_1ARMOR_CHESTPLATE.get());
+				tabData.accept(ThearmorsupdateModItems.URANIUM_1ARMOR_LEGGINGS.get());
+				tabData.accept(ThearmorsupdateModItems.URANIUM_1ARMOR_BOOTS.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 
-		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
-			tabData.accept(ThearmorsupdateModItems.URANIUM_ARMOR_HELMET.get());
-			tabData.accept(ThearmorsupdateModItems.URANIUM_ARMOR_CHESTPLATE.get());
-			tabData.accept(ThearmorsupdateModItems.URANIUM_ARMOR_LEGGINGS.get());
-			tabData.accept(ThearmorsupdateModItems.URANIUM_ARMOR_BOOTS.get());
+		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(ThearmorsupdateModItems.RUBY_DIMENSION.get());
+			tabData.accept(ThearmorsupdateModItems.URANIUM_DIMENSION.get());
 		}
 	}
 }

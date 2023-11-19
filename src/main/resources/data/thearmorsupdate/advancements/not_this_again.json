@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "thearmorsupdate:deleted_mod_element_boots"
+    },
+    "title": {
+      "translate": "advancements.not_this_again.title"
+    },
+    "description": {
+      "translate": "advancements.not_this_again.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "not_this_again": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "parent": "thearmorsupdate:cover_me_in_rubys"
+}

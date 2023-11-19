@@ -11,8 +11,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundEvent;
 
-public abstract class UraniumArmorItem extends ArmorItem {
-	public UraniumArmorItem(ArmorItem.Type type, Item.Properties properties) {
+public abstract class Uranium1armorItem extends ArmorItem {
+	public Uranium1armorItem(ArmorItem.Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForType(ArmorItem.Type type) {
@@ -21,7 +21,7 @@ public abstract class UraniumArmorItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForType(ArmorItem.Type type) {
-				return new int[]{3, 6, 7, 4}[type.getSlot().getIndex()];
+				return new int[]{9, 12, 13, 11}[type.getSlot().getIndex()];
 			}
 
 			@Override
@@ -41,22 +41,22 @@ public abstract class UraniumArmorItem extends ArmorItem {
 
 			@Override
 			public String getName() {
-				return "uranium_armor";
+				return "uranium_1armor";
 			}
 
 			@Override
 			public float getToughness() {
-				return 3.8f;
+				return 4f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0.1f;
+				return 2.3f;
 			}
 		}, type, properties);
 	}
 
-	public static class Helmet extends UraniumArmorItem {
+	public static class Helmet extends Uranium1armorItem {
 		public Helmet() {
 			super(ArmorItem.Type.HELMET, new Item.Properties());
 		}
@@ -67,7 +67,7 @@ public abstract class UraniumArmorItem extends ArmorItem {
 		}
 	}
 
-	public static class Chestplate extends UraniumArmorItem {
+	public static class Chestplate extends Uranium1armorItem {
 		public Chestplate() {
 			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
 		}
@@ -78,7 +78,7 @@ public abstract class UraniumArmorItem extends ArmorItem {
 		}
 	}
 
-	public static class Leggings extends UraniumArmorItem {
+	public static class Leggings extends Uranium1armorItem {
 		public Leggings() {
 			super(ArmorItem.Type.LEGGINGS, new Item.Properties());
 		}
@@ -89,7 +89,7 @@ public abstract class UraniumArmorItem extends ArmorItem {
 		}
 	}
 
-	public static class Boots extends UraniumArmorItem {
+	public static class Boots extends Uranium1armorItem {
 		public Boots() {
 			super(ArmorItem.Type.BOOTS, new Item.Properties());
 		}

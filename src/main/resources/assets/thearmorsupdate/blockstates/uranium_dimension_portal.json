@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "thearmorsupdate:block/uranium_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "thearmorsupdate:block/uranium_dimension_portal_ns"
+    }
+  }
+}

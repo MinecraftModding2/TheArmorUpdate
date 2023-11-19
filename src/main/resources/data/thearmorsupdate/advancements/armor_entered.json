@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "thearmorsupdate:deleted_mod_element_chestplate"
+    },
+    "title": {
+      "translate": "advancements.armor_entered.title"
+    },
+    "description": {
+      "translate": "advancements.armor_entered.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "armor_entered": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "parent": "thearmorsupdate:cover_me_in_rubys"
+}

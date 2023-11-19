@@ -1,9 +1,8 @@
 {
   "type": "forge:add_features",
-  "biomes": [
-    "old_growth_birch_forest",
-    "birch_forest"
-  ],
+  "biomes": {
+    "type": "forge:any"
+  },
   "features": "thearmorsupdate:ruby_ore",
   "step": "underground_ores"
 }
